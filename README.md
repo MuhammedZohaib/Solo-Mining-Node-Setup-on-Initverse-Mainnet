@@ -3,6 +3,8 @@
 ## Introduction
 This guide will walk you through setting up a solo mining node on the **Initverse Mainnet**. This process requires a **Linux environment** such as **WSL (Windows Subsystem for Linux)** or a **Linux VPS**.
 
+![image](https://github.com/user-attachments/assets/1805a025-6f6a-4768-b6d4-b41cd1e93aa8)
+
 ## Prerequisites
 Before proceeding, ensure you have access to a Linux-based system:
 - **WSL (Windows Subsystem for Linux)** if using Windows
@@ -45,9 +47,10 @@ Start mining with:
 ```sh
 miner.start()
 ```
-To mine with **3 threads**:
+To mine with **limited threads**:
+you can pass any number based on your machine to run the solo mining node
 ```sh
-miner.start(3)
+miner.start(3) # run miner with 3 threads
 ```
 To stop mining:
 ```sh
