@@ -72,4 +72,4 @@ If synchronization is complete, this command will return `false`.
 ## Support & Credits
 If you found this repository useful, please **star** the repo!
 
-Developed by **Muhammad Zohaib**
+Compiled by **~Muhammad Zohaib**
