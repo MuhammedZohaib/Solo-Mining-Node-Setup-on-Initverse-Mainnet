@@ -1,0 +1,1 @@
+# Solo-Mining-Node-Setup-on-Initverse-Mainnet
